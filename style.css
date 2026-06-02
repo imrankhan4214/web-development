@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background-color: #f0f8ff;
+}
+h1{
+    color: blue;
+}
+img { 
+    border-radius: 50%;
+}
+button{
+    padding: 10px 20px;
+    background-color: green;
+    color:white ;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgreen;
+}
