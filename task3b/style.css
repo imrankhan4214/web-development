@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    width:450px;
+    box-shadow:0px 0px 10px gray;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.option{
+    background:#2196F3;
+    color:white;
+    border:none;
+}
+
+.option:hover{
+    background:#0b7dda;
+}
+
+#nextBtn{
+    background:green;
+    color:white;
+    border:none;
+}
+
+@media(max-width:600px){
+    .container{
+        width:90%;
+    }
+}
