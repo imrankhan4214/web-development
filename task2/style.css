@@ -1,0 +1,67 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    margin:20px;
+}
+
+h1{
+    text-align:center;
+    color:blue;
+}
+
+.container{
+    display:flex;
+    justify-content:space-around;
+    gap:20px;
+}
+
+.form-section,
+.todo-section{
+    background:white;
+    padding:20px;
+    width:45%;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+
+button{
+    margin-top:10px;
+    padding:10px 20px;
+    background:green;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background:darkgreen;
+}
+
+li{
+    margin-top:10px;
+}
+
+#error{
+    color:red;
+}
+
+/* Responsive Design */
+
+@media(max-width:768px){
+
+    .container{
+        flex-direction:column;
+    }
+
+    .form-section,
+    .todo-section{
+        width:100%;
+    }
+}
