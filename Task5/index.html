@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🛒 My E-Commerce Store</h1>
+
+    <button id="darkBtn" onclick="darkMode()">
+        🌙 Dark Mode
+    </button>
+
+    <h3>Cart: <span id="cartCount">0</span></h3>
+</header>
+
+<div class="search-box">
+    <input type="text"
+           id="search"
+           placeholder="Search Product..."
+           onkeyup="searchProduct()">
+</div>
+
+<section id="products" class="product-grid">
+
+    <div class="card" data-name="Laptop">
+        <img src="img/laptop.jpeg" alt="Laptop">
+        <h3>Laptop</h3>
+        <p>₹45,000</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="card" data-name="Phone">
+        <img src="img/phone.jpeg" alt="Phone">
+        <h3>Smart Phone</h3>
+        <p>₹20,000</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="card" data-name="Headphones">
+        <img src="img/headphones.jpeg" alt="Headphones">
+        <h3>Headphones</h3>
+        <p>₹2,000</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
